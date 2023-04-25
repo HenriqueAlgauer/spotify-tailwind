@@ -1,4 +1,4 @@
-import {Home as HomeIcon, Search, Library } from 'lucide-react'
+import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -27,20 +27,36 @@ export default function Home() {
            </nav>
 
            <nav className='mt-10 pt-10 border-t border-zinc-700 flex flex-col gap-2'>
-              <a href='' className='text-small text-zinc-400'>Playlist 1</a>
-              <a href='' className='text-small text-zinc-400'>Playlist 2</a>
-              <a href='' className='text-small text-zinc-400'>Playlist </a>
-              <a href='' className='text-small text-zinc-400'>Playlist </a>
-              <a href='' className='text-small text-zinc-400'>Playlist </a>
-              <a href='' className='text-small text-zinc-400'>Playlist </a>
-              <a href='' className='text-small text-zinc-400'>Playlist </a>
-              <a href='' className='text-small text-zinc-400'>Playlist </a>
-              <a href='' className='text-small text-zinc-400'>Playlist </a>
-              <a href='' className='text-small text-zinc-400'>Playlist </a>
+              <a href='' className='text-small text-zinc-400 hover:text-zinc-100'>Phonk</a>
+              <a href='' className='text-small text-zinc-400 hover:text-zinc-100'>Mega</a>
+              <a href='' className='text-small text-zinc-400 hover:text-zinc-100'>Dance </a>
+              <a href='' className='text-small text-zinc-400 hover:text-zinc-100'>Prog </a>
+              <a href='' className='text-small text-zinc-400 hover:text-zinc-100'>Best of Prog </a>
+              <a href='' className='text-small text-zinc-400 hover:text-zinc-100'>Oldies </a>
+              <a href='' className='text-small text-zinc-400 hover:text-zinc-100'>Mega 2.0 </a>
+              <a href='' className='text-small text-zinc-400 hover:text-zinc-100'>Dance 2.0</a>
            </nav>
          </aside>
          <main className='flex-1 p-6'>
-           main
+           <div className='flex items-center gap-4'>
+              <button className='rounded-full bg-black/40 p-1'>
+                <ChevronLeft/>
+              </button>
+              <button className='rounded-full bg-black/40 p-1'>
+                <ChevronRight/>
+              </button>             
+           </div>
+            <h1 className='font-semibold text-4xl mt-10'>
+              Good Afternoom
+            </h1>
+            <div className='grid grid-cols-3 gap-4'>
+              <div className='bg-white/10'>Playlist</div>
+              <div className='bg-white/10'>Playlist</div>
+              <div className='bg-white/10'>Playlist</div>
+              <div className='bg-white/10'>Playlist</div>
+              <div className='bg-white/10'>Playlist</div>
+              <div className='bg-white/10'>Playlist</div>
+            </div>
          </main>
        </div>
        
