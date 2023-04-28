@@ -2,6 +2,7 @@ import { Home as HomeIcon,  ChevronLeft, ChevronRight, Play} from 'lucide-react'
 import Image from 'next/image'
 import drake from '../../public/drake.jpg'
 import { Sidebar } from '@/components/Sidebar'
+import { Footer } from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -96,6 +97,7 @@ export default function Home() {
               </a>
             </div>
           </main>
+          <Footer/>
         </div>
       </div>
     </main>
