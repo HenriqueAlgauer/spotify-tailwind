@@ -1,6 +1,6 @@
 import { Laptop2, LayoutList, Maximize2, Mic2, Play, Repeat, Shuffle, SkipBack, SkipForward, Volume } from "lucide-react";
 import Image from 'next/image'
-import drake from '../../public/drake.jpg'
+import drake from '../../../public/drake.jpg'
 
 export function Footer(){
     return(
