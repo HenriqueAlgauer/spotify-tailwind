@@ -1,4 +1,4 @@
-import { Home as HomeIcon, ChevronLeft, ChevronRight, Play } from 'lucide-react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Sidebar } from '@/components/sidebar/Sidebar'
 import { Footer } from '@/components/footer/Footer'
 import { PlaylistGrid } from '@/components/playlist-grid/playlist-grid'
